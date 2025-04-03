@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Maquillaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ca5858;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Galería de Maquillaje</h1>
+        <p>fotos de caras con nuestros productos ya aplicados</p>
+        <div class="gallery">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen1.jpg" alt="Maquillaje 1">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen2.jpg" alt="Maquillaje 2">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen3.jpg" alt="Maquillaje 3">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen4.jpg" alt="Maquillaje 4">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen5.jpg" alt="Maquillaje 5">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen6.jpg" alt="Maquillaje 6">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen7.jpg" alt="Maquillaje 9">
+            <img src="C:\Users\PC\Pictures\mi pagina wed\img/imagen8.jpg" alt="Maquillaje 8">
+        </div>
+    </div>
+</body>
+</html>
